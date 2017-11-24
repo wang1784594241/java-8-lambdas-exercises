@@ -7,7 +7,30 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>lambdas-book-examples</name>
     <url>http://maven.apache.org</url>
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>UK</id>
+            <name>UK Central</name>
+            <url>http://uk.maven.org/maven2</url>
+        </repository>
 
+        <repository>
+            <id>sonatype</id>
+            <name>sonatype Central</name>
+            <url>http://repository.sonatype.org/content/groups/public/</url>
+        </repository>
+
+        <repository>
+            <id>jboss-public-repository-group</id>
+            <name>JBoss Public Repository Group</name>
+            <url>http://repository.jboss.org/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>

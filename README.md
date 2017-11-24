@@ -10,6 +10,7 @@ The overall code layout is:
 
 * Code is in `src/main/java`
 * Tests are in `src/test/java`
+* Java 8函数式编程.pdf `src/main/resources/book`
 
 Within these directories things are organised by package:
 
